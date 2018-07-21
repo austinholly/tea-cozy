@@ -1,0 +1,143 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h2 h4 {
+  padding: 0;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 18px;
+  text-decoration: underline;
+  color: seashell;
+}
+
+nav {
+  align-items: center;
+}
+
+nav span {
+  display: inline-flex;
+  align-content: flex-end;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+/* Main Content Container */
+
+/* Mission Section */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 69px;
+}
+
+#mission {
+  display: flex;
+  align-items: center;
+  background-image: url("images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.text-bar {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  color: seashell;
+  background-color: black;
+  width: 100%;
+}
+
+
+/* Featured Tea Section */
+
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.featured img {
+  height: 200px;
+  padding-bottom: 40px;
+}
+
+/* Locations Section */
+
+.locations {
+  display: flex;
+  background-image: url("images/img-locations-background.jpg");
+  align-items: center;
+  height: 500px;
+}
+
+.location-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: seashell;
+  height: 300px;
+  width: 300px;
+  margin-right: 40px;
+  border: 1px solid seashell;
+  opacity: 1;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.contact {
+  height: 200px;
+  align-items: center;
+
+}
