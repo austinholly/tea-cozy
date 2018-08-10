@@ -2,6 +2,7 @@ body {
   display: flex;
   font-family: Helvetica;
   font-size: 22px;
+  font-weight: bold;
   background-color: black;
   opacity: 0.9;
   margin: 0;
@@ -9,9 +10,10 @@ body {
   border: 0;
 }
 
-h2,h3,h4,h4,h5.p {
-  padding: 0;
-  color: seashell;
+h2,h4 {
+  border: 0px;
+  margin: 0px;
+  padding-top: 5px;
 }
 
 /*header*/
@@ -69,7 +71,7 @@ nav span {
   padding-top: 69px;
 }
 
-#mission {
+.mission {
   display: flex;
   align-items: center;
   background-image: url("images/img-mission-background.jpg");
@@ -80,29 +82,53 @@ nav span {
 .text-bar {
   display: flex;
   flex-direction: column;
-  align-content: center;
   align-items: center;
   color: seashell;
   background-color: black;
   width: 100%;
+  padding-bottom: 5px;
 }
-
 
 /* Featured Tea Section */
 
-.featured {
+#featured-tea {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.featured-container {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
-  align-items: center;
+  width: 1200px;
   justify-content: center;
-  margin: 0 auto;
-}
+  padding-bottom: 50px;
+  margin: 0 100;
+  }
+  .featured-container h2 h4 {
+    display: block;
+    text-align: center;
+    color; seashell;
+    background-color: black;
+  /*  padding-top: 30px;*/
+  }
 
 .featured img {
   height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.featured span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
   padding: 5px;
-  margin-bottom: 40px;
+  color: seashell;
+}
+
+.featured {
+  padding: 5px;
 }
 
 /* Locations Section */
@@ -110,16 +136,17 @@ nav span {
 #locations {
  background-image: url("images/img-locations-background.jpg");
  height: 500px;
- paddding-top: 70px;
+ padding-top: 30px;
 }
 
-#locations h2 {
-  justify-content: center;
+.locations-heading {
+  display: block;
+  text-align: center;
+  padding: 30px 0px 10px 0px;
 }
 
 .locations-container {
   display: flex;
-/*  align-items: center;*/
   justify-content: center;
   width: 1200px;
   margin: auto;
@@ -130,30 +157,38 @@ nav span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-basis: 280px;
+  flex-basis: 300px;
   background-color: black;
   color: seashell;
-  /*height: 300px;
-  width: 300px;*/
   margin: 5px 20px;
   border: 1px solid seashell;
   opacity: 1.0;
   padding: 10px;
 }
 
-/* Footer Section */
+/* Contact Section */
 
 .contact {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: 1200px;
+  text-align: center;
   height: 200px;
   color: seashell;
   margin: 0 auto ;
 }
 
+/*  Footer Section */
+/*footer h5 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  color: seashell;
+
+}*/
+
 footer {
   display: block;
+  width: 100%;
   text-align: left;
-  margin: 10px;
-
+  color: seashell;
 }
