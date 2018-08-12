@@ -103,12 +103,12 @@ nav span {
   width: 1200px;
   justify-content: center;
   padding-bottom: 50px;
-  margin: 0 100;
+  margin: 0px 100px;
+  color: seashell;
   }
   .featured-container h2 h4 {
     display: block;
     text-align: center;
-    color; seashell;
     background-color: black;
   /*  padding-top: 30px;*/
   }
@@ -124,7 +124,6 @@ nav span {
   text-align: center;
   font-weight: bold;
   padding: 5px;
-  color: seashell;
 }
 
 .featured {
@@ -178,17 +177,11 @@ nav span {
 }
 
 /*  Footer Section */
-/*footer h5 {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 10px;
-  color: seashell;
-
-}*/
 
 footer {
   display: block;
   width: 100%;
   text-align: left;
   color: seashell;
+  padding-left: 10px;
 }
